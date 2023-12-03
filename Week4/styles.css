@@ -1,0 +1,73 @@
+* {
+    margin: 10px;
+    padding: 2px 2px 2px 2px;
+}
+
+body {
+    background-image: url(/Homework/Week4/bunbun.jpg);
+    background-size:cover;
+    font-family: Arial, sans-serif;
+    line-height: 2;
+}
+
+#header {
+    background-color: #203c21;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 60px;
+    text-align: left;
+    border: 5px solid #fff;
+    font-size: larger;
+}
+
+main h2 {
+    text-align: center;
+}
+
+h2::before {
+    content: "♥";
+    color: #fff
+}
+
+h2, h3 {
+    color: rgb(249, 165, 10);
+    margin-bottom: 20px;
+    font-weight: bolder;
+
+}
+
+.image {
+    padding: 20px;
+    display: block;
+    margin: 100px auto;
+    border: 5px solid #203c21;
+}
+
+#footer {
+    border-style: double;
+    background-color: #203c21;
+    font-weight: bold;
+    color: #fff;
+    
+}
+a {
+    color: rgb(249, 165, 10);
+    text-decoration: none;
+    border-bottom: 1px dashed #203c21;
+    transition: border-bottom 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main ul li {
+    margin-bottom: 1px;
+}
