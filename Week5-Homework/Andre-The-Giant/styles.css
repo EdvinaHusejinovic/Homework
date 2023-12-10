@@ -1,0 +1,50 @@
+html {
+    background-color: antiquewhite;
+}
+
+body {
+    text-align: center;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+img {
+    height: 100%;
+}
+
+div {
+    border: 2px solid burlywood;
+    margin: 10px;
+}
+
+#bio {
+    text-align: left;
+}
+
+#bio > li {
+    padding: 2px;
+}
+
+#pro {
+    width: auto;
+}
+
+#achievements {
+    text-align: left;
+}
+
+/*iphone 6/7/8 */
+@media only screen and (max-width: 375px) {
+    body {
+        font-size: 16px;
+    }
+
+    
+    img {
+        width: 50%;
+        height: 50%;
+    }
+}
